@@ -366,9 +366,9 @@ select>option{
         justify-content: center;
         align-items: center;
         width: 100%;
-        transform: scaleX(136%);
+        transform: scaleX(110%);
         position: relative;
-        left: -2.1%;
+        left: -2.7%;
     }
     
     .grid1{
@@ -380,7 +380,11 @@ select>option{
     }
 
     .grid1>h5{
-        font-size: 16px;
+        font-size: 14px;
+    }
+
+    .grid1>h4{
+        font-size: 18px;
     }
 
     .inner_grid>figure>img{
@@ -388,7 +392,7 @@ select>option{
     }
 
     .inner_grid>figure>figcaption{
-        font-size: 15px;
+        font-size: 13px;
         text-overflow: ellipsis;
         white-space: normal; 
         display: -webkit-box;
@@ -397,13 +401,13 @@ select>option{
     }
 
     #flex_wrapper>h3{
-        font-size: 23px;
+        font-size: 18px;
         position: relative;
         top: -6%;
     }
 
     #flex_wrapper>h3>span{
-        font-size: 19px;
+        font-size: 15px;
     }
 
     #flex_wrapper>img{
@@ -434,20 +438,47 @@ select>option{
         left: 1.3%;
     }
 
-    .footer2>a{
-        margin-left: 10px;
+    #a11{
+        position: relative;
+        left: -13%;
+        margin-top: -33px;
+    }
+
+    #a1{
+        position: relative;
+        left: -13%;
+        margin-top: -100px;
     }
 
     #a2{
-        left: 2%;
+        left: -35%;
+        position: relative;
+        margin-top: -60px;
+    }
+
+    #a22{
+        position: relative;
+        left: -35%;
+    }
+
+    #a3,#a33{
+        position: relative;
+        left: -55%;
+        margin-top: -35px;
     }
 
     #a4{
-        left: 2.5%;
+        left: -75%;
+    }
+
+    #a44{
+        position: relative;
+        left: -78%;
+        margin-top: -20px;
     }
 
     #final>a{
-        left: 14%;
+        left: 2%;
     }
 
     #final>p{
@@ -476,7 +507,7 @@ select>option{
         font-size: 3rem;
         z-index: 1;
         padding: 120px 0;
-        left: 6px;
+        left: -8px;
         top: 0%;
         transform: 'translateY(-50%)';
         cursor: pointer;
@@ -497,14 +528,14 @@ select>option{
       }
 
       #logo{
-        width: 100px;
+        width: 70px;
         transform: translateX(-15px);
       }
 
       #searchbox{
-        width: 200px; /* Expands to fill available space */
+        width: 170px; /* Expands to fill available space */
         height: 37px;
-        margin-left: -110px;
+        margin-left: -100px;
         margin-right: -213px;
         padding: 5px 10px;
         border: none;
@@ -520,9 +551,14 @@ select>option{
         width: 36px;
         background-color: #febd69;
         padding:5px 6px;
-        margin-left: 55px;
+        margin-left: 71px;
         border-radius: 0 5px 5px 0;
         cursor: pointer;
+      }
+
+      #footerlogo{
+        position: relative;
+        left: -15%;
       }
 
       #cart{
@@ -530,7 +566,7 @@ select>option{
       }
 
       #personicon{
-        left: -90px;
+        left: -89.99px;
       }
       .india,.lang{
         display: flex;
@@ -539,7 +575,7 @@ select>option{
     
     .india{
         position: relative;
-        left: 10px;
+        left: -30px;
         height: 28px;
         width: 70px;
         padding-right: 10px;
@@ -558,6 +594,8 @@ select>option{
     }
     
     .lang{
+        position: relative;
+        left: -15%;
         padding:0 10px;
         height: 28px;
         width: 115px;
