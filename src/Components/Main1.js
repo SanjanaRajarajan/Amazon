@@ -372,7 +372,7 @@ function Main1() {
         <i id='right' onClick={nextimg4} class="bi bi-chevron-compact-right"></i>
       </div>
       <div id='top'>
-        <a id='topgo'>Back to top</a>
+        <a id='topgo' href='#'>Back to top</a>
       </div>
       <div id='footer'>
       <div id='footer1'>
