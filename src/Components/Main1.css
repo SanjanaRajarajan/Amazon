@@ -539,7 +539,7 @@ select>option{
         margin-right: -213px;
         padding: 5px 10px;
         border: none;
-        border-radius: 5px 0 0 5px;
+        border-radius: 5px 5px 5px 5px;
         outline: none;
         font-size: 14px;
         box-sizing: border-box;
