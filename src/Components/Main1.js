@@ -434,22 +434,22 @@ function Main1() {
       </div>
       </div>
       <div id='atlast'><div className='footer2'>
-        <a href="#">
+        <a href="#" id='a11'>
             <strong>AbeBooks</strong><br></br>
             Books, art<br></br>
             & collectibles
         </a><br></br>
-        <a href="#">
+        <a href="#" id='a22'>
             <strong>Amazon Web Services</strong><br></br>
             Scalable Cloud<br></br>
             Computing Services
         </a><br></br>
-        <a href="#">
+        <a href="#" id='a33'>
             <strong>Audible</strong><br></br>
             Download<br></br>
             Audio Books
         </a><br></br>
-        <a href="#">
+        <a href="#" id='a44'>
             <strong>IMDb</strong><br></br>
             Movies, TV<br></br>
             & Celebrities
@@ -478,8 +478,8 @@ function Main1() {
         </a><br></br>
       </div>
       <div id='final'>
-        <a href='#'>Conditions of Use & Sale</a>&nbsp;&nbsp;
-        <a href='#'>Privacy Notice</a>&nbsp;&nbsp;
+        <a href='#' >Conditions of Use & Sale</a>&nbsp;&nbsp;
+        <a href='#' >Privacy Notice</a>&nbsp;&nbsp;
         <a href='#'>Interest-Based Ads</a><br></br>
         <p>&copy; 1996-2024, Amazon.com, Inc. or its affiliates</p>
       </div>
