@@ -160,6 +160,7 @@ span:hover{
     color: white;
     font-size: 14px;
     cursor: pointer;
+    text-decoration:none;
 }
 
 #footer{
