@@ -13,7 +13,7 @@
 
 .explore_topic{
     margin-left: 20px;
-    margin-top: 55px;
+    margin-top: 60px;
 }
 
 .exp1{
@@ -95,11 +95,9 @@ label{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 60%;
-        transform: translateX(-15%);
-        transform: scaleX(107%);
+        width: 35%;
         position: relative;
-        left: 15%;
+        left: 27.2%;
     }
     
     .exp1{
@@ -109,7 +107,7 @@ label{
     }
 
     .explore_topic{
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .img_container>#add_to_cart{
