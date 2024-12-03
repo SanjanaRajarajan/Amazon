@@ -45,7 +45,7 @@ function Tools() {
 
   return (
     <>
-      <div id='header_'>
+      <div id='header_wrapper'>
             <img onClick={click} id='logo' src={logo} alt='amazon' loading='lazy'></img>
             <input type='search' placeholder='Search Amazon.in' id='searchbox'></input>
             <img id='searchicon' src={searchicon} alt='amazon' loading='lazy'></img>
