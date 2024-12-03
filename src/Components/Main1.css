@@ -151,6 +151,8 @@ span:hover{
     padding: 13px;
     text-align: center;
     cursor: pointer;
+    position: relative;
+    bottom: 0px;
 }
 
 #top:hover{
@@ -294,6 +296,7 @@ select>option{
     position: relative;
     left: 15%;
     margin: 0;
+    height: 80px;
     margin-bottom: 20px;
     font-size: 12px;
     background-color: #141725;
@@ -334,6 +337,10 @@ select>option{
     left: 1%;
 }
 
+#final{
+    height: 45px;
+}
+
 #final>a{
     text-align: center;
     position: relative;
@@ -366,18 +373,29 @@ select>option{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
-        transform: scaleX(110%);
+        width: 40%;
+        transform: scaleX(116%);
         position: relative;
-        left: -2.7%;
+        left: 27.2%;
     }
     
     .grid1{
+        width: 305px !important;
+        position: relative;
+    }
+
+    #items{
+        top: 9.2%;
         width: 100%;
     }
 
+    #items>button{
+        font-size: 13px;
+    }
+
     #img_container{
-        margin-bottom: 60px;
+        margin-bottom: 95px;
+        margin-top: 4px;
     }
 
     .grid1>h5{
@@ -385,20 +403,24 @@ select>option{
     }
 
     .grid1>h4{
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .inner_grid>figure>img{
         transform: translateX(-15%);
+            width: 110px;
+            height: 110px;
+            cursor: pointer;
     }
 
     .inner_grid>figure>figcaption{
-        font-size: 13px;
+        font-size: 12px;
         text-overflow: ellipsis;
         white-space: normal; 
         display: -webkit-box;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 3;
+        margin-left: 5px;
     }
 
     #flex_wrapper>h3{
@@ -409,36 +431,97 @@ select>option{
     }
 
     #flex_wrapper>h3>span{
-        font-size: 15px;
+        font-size: 13px;
         cursor: pointer;
     }
 
     #flex_wrapper>img{
-        height: 130px;
+        height: 120px;
     }
 
     #right{
-        left: 88%;
+        left: 84%;
+        padding: 0 ;
+        margin-top: 20px;
+        font-size: 40px;
+    }
+
+    #left{
+        
+        padding: 0 ;
+        margin-top: 20px;
+        font-size: 40px;
+    }
+
+    #fitness{
+        height: 360px;
+        width: 270px;
+        margin: 0 17px;
+        margin-bottom: -20px;
+    }
+
+   /*  #footer1{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #foot1>a{
+        display: flex;
+        flex-direction: row;
     }
 
     #foot1{
         left:8%;
+        font-size: 8px;
+    }
+
+    #foot1>p,#foot2>p,#foot3>p,#foot4>p{
+        font-size: 14px;
     }
 
     #foot2{
-        left: 9%;
+        left: -3%;
+        font-size: 8px;
     }
 
     #foot3{
-        left: -10%;
+        left: -7%;
+        font-size: 8px;
+    }
+
+    #foot4{
+        font-size: 8px;
+    }
+ */
+
+    #footer1{
+        display: none;
+    }
+
+    #top{
+        background-color: #303755ef;
+        padding: 13px;
+        text-align: center;
+        cursor: pointer;
+        position: relative;
+        bottom: -9px;
     }
 
     #last{
-        left: 8%;
+        left: 13%;
+        font-size: 10px;
+        padding: 12px;
+        position: relative;
     }
 
     .footer2{
-        left: 1.3%;
+        left: -2%;
+        font-size: 10px;
+        height: 0px;
+    }
+
+    .footer2>a{
+        display: none;
     }
 
     #a11{
@@ -480,12 +563,20 @@ select>option{
         margin-top: -20px;
     }
 
+    #final{
+        height: 10px;
+    }
+
     #final>a{
-        left: 2%;
+        left: 7.5%;
+        top: -444%;
+        font-size: 11px;
     }
 
     #final>p{
         left: 0%;
+        top: -400%;
+        font-size: 10px;
     }
 
     #img_container>img{
@@ -500,7 +591,7 @@ select>option{
         font-size: 3rem;
         padding: 120px 0;
         left: 89%;
-        top: 0%;
+        top: 10%;
         cursor: pointer;
       }
 
@@ -511,23 +602,27 @@ select>option{
         z-index: 1;
         padding: 120px 0;
         left: -8px;
-        top: 0%;
+        top: 16%;
         transform: 'translateY(-50%)';
         cursor: pointer;
       }
 
       #img_container>i:hover{
         padding:121px 0;
+        margin-top: 11px;
         border: 1px solid white;
       }
 
       #items{
-        overflow: scroll;
+        overflow-x: scroll;
+        overflow-y: hidden;
         padding: 10px 1px;
+        margin-top: 0px;
       }
 
       #items>button{
         padding: 7px;
+        font-size: 13px;
       }
 
       #logo{
@@ -535,26 +630,31 @@ select>option{
         transform: translateX(-15px);
       }
 
+      #header_wrapper{
+        height: 40px;
+      }
+
       #searchbox{
-        width: 170px; /* Expands to fill available space */
-        height: 37px;
-        margin-left: -100px;
+        width: 130px; /* Expands to fill available space */
+        height: 25.5px;
+        margin-left: -115px;
         margin-right: -213px;
-        padding: 5px 10px;
+        padding:0 6px;
         border: none;
         border-radius: 5px 0 0 5px;
         outline: none;
-        font-size: 14px;
+        font-size: 10px;
         box-sizing: border-box;
         border-radius: 7px 0 0 7px;
       }
 
       #searchicon {
-        height: 27px;
+        height: 14px;
         width: 36px;
         background-color: #febd69;
-        padding:5px 6px;
+        padding:5.5px 3px;
         margin-left: 71px;
+        border:1px solid  #febd69 ;
         border-radius: 0 5px 5px 0;
         cursor: pointer;
       }
@@ -565,11 +665,14 @@ select>option{
       }
 
       #cart{
-        left: -3%;
+        left: -6%;
+        height: 30px;
+        width: 60px;
       }
 
       #personicon{
-        left: -89.99px;
+        left: -95px;
+        font-size: 2rem !important;
       }
       .india,.lang{
         display: flex;
@@ -578,7 +681,7 @@ select>option{
     
     .india{
         position: relative;
-        left: -30px;
+        left: -40px;
         height: 28px;
         width: 70px;
         padding-right: 10px;
@@ -588,8 +691,8 @@ select>option{
     
     .india>p{
         color: white;
-        font-size: 13px;
-        margin-top: 15px;
+        font-size: 10px;
+        margin-top: 12px;
     }
     
     #web{
@@ -598,12 +701,17 @@ select>option{
     
     .lang{
         position: relative;
-        left: -15%;
+        left: -19%;
         padding:0 10px;
         height: 28px;
-        width: 115px;
+        width: 95px;
         border-radius: 3px;
         border: 1px solid rgb(255, 255, 255,0.6);
+    }
+
+    .lang>select{
+        margin-top: 3px;
+        font-size: 10px;
     }
 
 
