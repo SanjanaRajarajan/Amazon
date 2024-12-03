@@ -34,7 +34,7 @@ function App() {
       {/* Include Header on all pages */}
       <Routes>
         {/* Route for the main page */}
-        <Route path="/main" element={<Main />} />
+        <Route path="/" element={<Main />} />
         {/* Route for the rewamp page */}
         <Route path="/rewamp" element={<Rewamp />} />
         <Route path="/appliances" element={<Appliances />} />
