@@ -81,7 +81,7 @@ function Header() {
 
   const navigate15 = useNavigate();
   const handleClick15 = () => {
-    navigate15('/main');
+    navigate15('/');
   };
 
   return (
