@@ -9,6 +9,7 @@
     background-color: #fff;
     margin-top: 20px;
     margin-bottom: 20px;
+    cursor: pointer;
   }
   
 #flex_wrapper>img{
@@ -66,6 +67,7 @@ span{
     color: rgb(84, 174, 209);
     margin-left: 15px;
     font-size: 15px;
+    cursor: pointer;
 }
 
 span:hover{
@@ -106,11 +108,10 @@ span:hover{
     top: -7%;
     cursor: pointer;
     border-radius: 5px;
+    border:1.5px solid black;
 }
 
-#inner_flex>figure>img::after{
-    border: 5px double rgb(81, 81, 196);
-}
+
 
 #maincont>figure>figcaption{
     text-align: center;
@@ -160,7 +161,6 @@ span:hover{
     color: white;
     font-size: 14px;
     cursor: pointer;
-    text-decoration:none;
 }
 
 #footer{
@@ -405,10 +405,12 @@ select>option{
         font-size: 18px;
         position: relative;
         top: -6%;
+        cursor: pointer;
     }
 
     #flex_wrapper>h3>span{
         font-size: 15px;
+        cursor: pointer;
     }
 
     #flex_wrapper>img{
@@ -540,7 +542,7 @@ select>option{
         margin-right: -213px;
         padding: 5px 10px;
         border: none;
-        border-radius: 5px 5px 5px 5px;
+        border-radius: 5px 0 0 5px;
         outline: none;
         font-size: 14px;
         box-sizing: border-box;
