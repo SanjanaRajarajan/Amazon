@@ -1,0 +1,89 @@
+.explore_cont{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 15px;
+    column-gap: 10px;
+    margin: 10px;
+    margin-left: 18px;
+}
+
+#topgo{
+    text-decoration: none;
+}
+
+.explore_topic{
+    margin-left: 20px;
+}
+
+.exp1{
+    background-color: #fff;
+    width: 320px;
+    height: 460px;
+}
+
+.img_container>figure>img{
+    height: 250px;
+    width: 280px;
+    position: relative;
+    left: -9%;
+    cursor: default;
+}
+
+.rating{
+    position: relative;
+    left: 18%;
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+
+.img_container>figure>figcaption{
+    position: relative;
+    left: -3%;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.img_container>figure>figcaption>strong{
+    font-size: 15px;
+    position: relative;
+    font-weight: bolder;
+}
+
+.img_container>figure>figcaption>span{
+    color: rgb(68, 66, 66);
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+
+label{
+    color: black;
+    margin-left: 100px;
+}
+
+#quantity{
+    color: black;
+}
+
+.rating{
+    height: 30px;
+    position: relative;
+    left: 70px;
+}
+
+.img_container>#add_to_cart{
+    position: relative;
+    left: 22%;
+    padding: 8px 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(243, 243, 24,0.7);
+    background-color: rgb(253, 253, 24);
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#add_to_cart:hover{
+    background-color: rgb(250, 243, 10) ;
+}
