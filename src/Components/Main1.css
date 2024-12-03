@@ -617,7 +617,7 @@ select>option{
         overflow-x: scroll;
         overflow-y: hidden;
         padding: 10px 1px;
-        margin-top: -19px;
+        margin-top: -11px;
       }
 
       #items>button{
@@ -639,9 +639,9 @@ select>option{
         height: 40px;
       }
 
-      #searchbox{
-        width: 130px; /* Expands to fill available space */
-        height: 25.5px;
+      /* #searchbox{
+        width: 130px;
+        height: 27px;
         margin-left: -115px;
         margin-right: -213px;
         padding:0 6px;
@@ -663,6 +663,32 @@ select>option{
         border-radius: 0 5px 5px 0;
         cursor: pointer;
       }
+ */
+ #searchbox {
+    width: 140px; /* Expands to fill available space */
+    height: 30px;
+    margin-left: -115px;
+    margin-right: -213px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    outline: none;
+    font-size: 11px;
+    box-sizing: border-box;
+  }
+  
+  /* Search Icon */
+  #searchicon {
+    height: 26px;
+    width: 17px;
+    background-color: #febd69;
+    padding:2px 6px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    margin-left: 75px;
+    border: none;
+  }
+       
 
       #footerlogo{
         position: relative;
