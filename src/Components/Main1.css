@@ -368,6 +368,9 @@ select>option{
 }
 
 @media(max-width:480px){
+    #header_wrapper{
+        height: 20px;
+    }
     #grid_wrapper{
         display: flex;
         flex-direction: column;
@@ -608,8 +611,8 @@ select>option{
       }
 
       #img_container>i:hover{
-        padding:121px 0;
-        margin-top: 11px;
+        padding:92px 0;
+        margin-top: 1px;
         border: 1px solid white;
       }
 
@@ -617,7 +620,7 @@ select>option{
         overflow-x: scroll;
         overflow-y: hidden;
         padding: 10px 1px;
-        margin-top: -11px;
+        margin-top: -1px;
       }
 
       #items>button{
@@ -634,10 +637,18 @@ select>option{
         width: 70px;
         transform: translateX(-15px);
       }
-
-      #header_wrapper{
+      #header_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #111820; /* Amazon header background */
+        padding: 10px 20px;
         height: 40px;
-      }
+        position: fixed;
+        top: 0%;
+        width: 97%;
+        z-index: 100000;
+      } 
 
       /* #searchbox{
         width: 130px;
@@ -665,7 +676,7 @@ select>option{
       }
  */
  #searchbox {
-    width: 140px; /* Expands to fill available space */
+    width: 150px; /* Expands to fill available space */
     height: 30px;
     margin-left: -115px;
     margin-right: -213px;
@@ -685,7 +696,7 @@ select>option{
     padding:2px 6px;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
-    margin-left: 75px;
+    margin-left: 85px;
     border: none;
   }
        
