@@ -73,6 +73,10 @@ body, html, #root {
   background-color: #171b2e; /* Amazon header background */
   padding: 10px 20px;
   height: 20px;
+  position: fixed;
+  top: 9.4%;
+  width: 97%;
+  z-index: 100000;
 }
 
 
@@ -89,7 +93,7 @@ body, html, #root {
 
 #house{
   color: white;
-  padding: 7.4px 10px;
+  padding: 7.2px 10px;
   cursor: pointer;
 }
 
@@ -120,6 +124,8 @@ body, html, #root {
 
 #img_container>img{
   width: 100%;
+  position: relative;
+  top: 14%;
   height: 256px;
 }
 
@@ -128,6 +134,7 @@ body, html, #root {
   position: absolute;
   font-size: 3rem;
   z-index: 1;
+  top: 14%;
   padding: 100px 0;
   left: 10px;
   transform: 'translateY(-50%)';
@@ -138,6 +145,7 @@ body, html, #root {
   color: black;
   position: absolute;
   z-index: 1;
+  top: 14%;
   font-size: 3rem;
   padding: 100px 0;
   left: 94.9%;
@@ -162,6 +170,8 @@ body, html, #root {
 .grid1{
   background-color: #fff;
   width: 320px !important;
+  position: relative;
+  top: 08%;
 }
 
 .inner_grid{
