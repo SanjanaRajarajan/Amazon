@@ -13,6 +13,7 @@
 
 .explore_topic{
     margin-left: 20px;
+    margin-top: 55px;
 }
 
 .exp1{
@@ -86,4 +87,56 @@ label{
 
 #add_to_cart:hover{
     background-color: rgb(250, 243, 10) ;
+}
+
+@media(max-width:480px){
+    .explore_cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        transform: translateX(-15%);
+        transform: scaleX(107%);
+        position: relative;
+        left: 15%;
+    }
+    
+    .exp1{
+        width: 325px !important;
+        overflow-y: hidden;
+        height: 435px;
+    }
+
+    .explore_topic{
+        font-size: 14px;
+    }
+
+    .img_container>#add_to_cart{
+        position: relative;
+        left:13%;
+        padding: 8px 80px;
+        border-radius: 5px;
+        border: 1px solid rgb(243, 243, 24,0.7);
+        background-color: rgb(253, 253, 24);
+        font-weight: 700;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .img_container>figure>img{
+            width: 210px;
+            height: 220px;
+            cursor: pointer;
+            transform: translateX(20%);
+    }
+
+    .img_container>figure>figcaption{
+        font-size: 12px;
+        text-overflow: ellipsis;
+        white-space: normal; 
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+    }
 }
